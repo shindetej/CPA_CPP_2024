@@ -16,9 +16,7 @@
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+s
 
 # Compiled Static libraries
 *.lai
@@ -30,3 +28,41 @@
 *.exe
 *.out
 *.app
+
+
+#### VS PROJECTS
+*.vcxproj.user
+*.vcxproj.filters
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.vssscc
+*.cache
+*.pdb
+*.obj
+*.ilk
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.tlog
+*.log
+
+
+# Build and output directories
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Rider IDE (if used)
+.idea/
+*.sln.iml
